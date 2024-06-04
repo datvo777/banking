@@ -1,5 +1,5 @@
 ## Project Overview
-This project is a Spring Boot application that interacts with the Coindesk API to manage currency data and provides various APIs for currency information. The project includes several advanced features such as request/response logging, Swagger UI, internationalization, design patterns, Docker support, error handling, and encryption.
+This project is a Spring Boot application that interacts with the Coindesk API to manage currency data and provides various APIs for currency information.
 
 ## Features
 1. **Print out the request and response body log of all APIs**: Logs all incoming requests and outgoing responses.
@@ -17,15 +17,11 @@ This project is a Spring Boot application that interacts with the Coindesk API t
 - Docker (optional)
 
 ### Build and Run
-1. Clone the repository:
-    ```sh
-    git clone <repository-url>
-    ```
-2. Build the project with Maven:
+1. Build the project with Maven:
     ```sh
     mvn clean package
     ```
-3. Run the application:
+2. Run the application:
     ```sh
     java -jar target/banking-0.0.1-SNAPSHOT.jar
     ```
